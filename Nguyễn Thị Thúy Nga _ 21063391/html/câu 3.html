@@ -1,0 +1,15 @@
+<div id="current-time"></div>
+<script>
+var curDate = new Date();
+ 
+ var hours = curDate.getHours();
+ console.log(hours);
+  
+ var minutes = curDate.getMinutes() + 1;
+ console.log(minutes);
+  
+ var seconds = curDate.getSeconds();
+ console.log(seconds);
+    document.getElementById('current-time').innerHTML = hours + ":" + minutes + ":" + seconds;
+
+</script>
